@@ -1,0 +1,10 @@
+{
+    "/worker.js": {
+      "target": "http://localhost:4200/public",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/worker.js": ""
+      }
+    }
+  }
